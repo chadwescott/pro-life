@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-bg-main: rgb(21, 21, 117);
+    --clr-text-main: rgb(255, 255, 255);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: url(assets/img/background.jpg), var(--clr-bg-main);
+    background-size: contain;
+    background-blend-mode: luminosity;
+}
+
+pl-root {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    min-height: 100vh;
+    max-width: 1600px;
+    background: #fff;
+    border: solid 1px var(--clr-bg-main);
+}
