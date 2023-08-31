@@ -5,8 +5,8 @@
 }
 
 :root {
-    --clr-bg-main: rgb(21, 21, 117);
-    --clr-text-main: rgb(255, 255, 255);
+    --clr-bg-main: rgb(21 21 117);
+    --clr-text-main: rgb(255 255 255);
 }
 
 body {
@@ -14,9 +14,8 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
-    background: url(assets/img/background.jpg), var(--clr-bg-main);
-    background-size: contain;
-    background-blend-mode: luminosity;
+    background: url(assets/img/background.png), rgb(100 100 255);
+    background-blend-mode: hard-light;
 }
 
 pl-root {
